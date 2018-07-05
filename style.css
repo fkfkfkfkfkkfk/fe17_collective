@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	font: normal 18px/28px Helvetica, Arial, sans-serif;
+	background: #fff;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.container {
+	width: 950px;
+	padding: 0 15px;
+}
