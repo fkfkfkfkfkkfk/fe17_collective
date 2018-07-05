@@ -11,4 +11,45 @@ body {
 .container {
 	width: 950px;
 	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.dark {
+	background: #000983;
+	padding-top: 41px;
+	padding-bottom: 68px;
+	color: #fff;
+}
+
+.section_list {
+	list-style-type: square;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 48px;
+	padding: 0 15px;
+	width: 440px;
+}
+
+.section_list li {
+	margin-top: 23px;
+}
+
+.section_list li:first-child {
+	margin-top: 0;
+} 
+
+.dark h2 {
+	margin: 0;
+	text-align: center;
+}
+
+.dark h2:after {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 1px;
+	background: #fff;
+	margin: 15px auto 0;
 }
