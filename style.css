@@ -11,4 +11,66 @@ body {
 .container {
 	width: 950px;
 	padding: 0 15px;
+	margin: 0 auto;
 }
+
+h2 {
+	position: relative;
+	font-size: 36px;
+	text-align: center;
+	margin: 0;
+	padding: 64px 0;
+}
+
+h2:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 44px;
+	width: 60px;
+	height: 1px;
+	background: #fff;
+	transform: translate(-50%, 0);
+}
+
+h3 {
+	text-align: center;
+	padding-bottom: 24px;
+}
+
+.section2 {
+	padding: 40px 0;
+	background: #000983;
+	color: #fff;
+}
+
+.text1 {
+	display: block;
+	float: left;
+	padding: 15px 15px 15px 0;
+	width: 460px;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: left;
+}
+
+.text2 {
+	display: block;
+	float: right;
+	padding: 15px 0px 15px 15px;
+	width: 460px;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: left;
+}
+
+.text3 {
+	display: block;
+	margin: 0 auto;
+	width: 490px;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: left;
+}
+	
+
