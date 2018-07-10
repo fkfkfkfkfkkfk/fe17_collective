@@ -13,6 +13,25 @@ body {
 	width: 950px;
 	padding: 0 15px;
 }
+.section4{
+	margin-top: 0;
+}
+.section4 dl{
+	margin: 0;
+	padding-top: 40px;
+}
+.section4 dt{
+	font-size: 28px;
+	line-height: 1.4em;
+	font-weight: bold;
+
+}
+.section4 dd{
+	font-size: 24px;
+	line-height: 1.4em;
+	padding: 10px 0 10px 30px;
+
+}
 
 .dark {
 	background: #000983;
@@ -104,4 +123,8 @@ h2:after, h1:after {
 
 .section_list li:last-child {
 	padding-bottom: 0;
+
 }
+
+} 
+
