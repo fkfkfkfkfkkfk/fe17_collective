@@ -9,6 +9,55 @@ body {
 	clear: both;
 }
 .container {
+	margin: 0 auto;
 	width: 950px;
 	padding: 0 15px;
+}
+
+.section-1 .container {
+	color: #000983;
+	font: normal 24px Arial, sans-serif;
+}
+
+.section-1 .container h1 {
+	position: relative;
+	text-align: center;
+	font: normal 36px Arial, sans-serif;
+}
+
+.section-1 .container h1:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -44px;
+	width: 60px;
+	height: 1px;
+	background: #000983;
+	transform: translate(-50%, 0);
+}
+
+.section-1 .container > span {
+	font: bold 96px Arial, sans-serif;
+}
+
+.section-1 .container > span > span {
+	color: #00ff00;
+}
+
+.section-1 .container p {
+	padding-left: 80px;
+}
+
+.section-1 .container button {
+	position: relative;
+	left: 50%;
+	top: 0;
+	padding: 7px 44px;
+	color: #fff;
+	background-color: #000983;
+	font-size: 20px;
+	align-items: center;
+	text-decoration: none;
+	transform: translate(-50%, 0);
+	border-radius: 9px;
 }
