@@ -13,6 +13,7 @@ body {
 	padding: 0 15px;
 	margin: 0 auto;
 }
+<<<<<<< HEAD
 .section4{
 	background-color: #000983;
 	color: #fff;
@@ -53,3 +54,46 @@ body {
 	padding-left: 30px;
 
 }
+
+.dark {
+	background: #000983;
+	padding-top: 41px;
+	padding-bottom: 68px;
+	color: #fff;
+}
+
+.dark h2 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 36px;
+	text-align: center;
+}
+
+.dark h2:after {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 1px;
+	background: #fff;
+	margin: 15px auto 0;
+}
+
+.section_list {
+	list-style-type: square;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 48px;
+	padding: 0 15px;
+	width: 440px;
+}
+
+.section_list li {
+	font-size: 28px;
+	padding-bottom: 19px;
+}
+
+.section_list li:last-child {
+	padding-bottom: 0;
+} 
