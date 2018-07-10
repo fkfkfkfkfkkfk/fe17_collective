@@ -13,6 +13,49 @@ body {
 	padding: 0 15px;
 	margin: 0 auto;
 }
+
+
+
+h3 {
+	text-align: center;
+	padding-bottom: 36px;
+	font-weight: normal;
+}
+
+.section2 {
+	background: #000983;
+	color: #fff;
+}
+
+.text1, .text2 {
+	display: block;
+	width: 460px;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: left;
+}
+
+.text1 {
+	float: left;
+	padding: 15px 15px 15px 0;
+}
+
+.text2 {
+	float: right;
+	padding: 15px 0px 15px 15px;
+}
+
+.text3 {
+	display: block;
+	margin: 0 auto;
+	width: 490px;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: left;
+}
+	
+
+
 .section4{
 	margin-top: 0;
 }
@@ -75,3 +118,4 @@ body {
 .section_list li:last-child {
 	padding-bottom: 0;
 } 
+
